@@ -1,5 +1,3 @@
-
-
 body, h1, h2, h3, h4, h5, h6, p, ul, li, figure, figcaption, blockquote, address {
   margin: 0;
   padding: 0;
@@ -35,48 +33,43 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  letter-spacing: 2%;
   color: #434455;
   background-color: #FFFFFF;
 }
 
 .logo {
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 3%;
+  font-size: 18px;
   font-weight: 700;
-  font-size: 32px;
-  line-height: 1.2;
-  letter-spacing: 0.05em;
+  line-height: 1.16;
   text-transform: uppercase;
   text-decoration: none;
 }
 
 .logo span {
   color: #4D5AE5;
+}
 
+.header .logo {
+  color: #2E2F42;
+}
+
+.footer .logo {
+  color: #F4F4FD;
 }
 
 .footer {
   background-color: #2E2F42;
 }
 
-
-.header .logo {
-  color: #2E2F42;
-  
-}
-
-.footer .logo {
-  color: #F4F4FD;
-  
-}
-
-
 .menu__link {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  letter-spacing: 2%;
   color: #2E2F42;
   text-decoration: none;
 }
@@ -87,14 +80,13 @@ body {
   outline: 2px solid #404BBF;
 }
 
-
 .address__link {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2E2F42;
+  letter-spacing: 2%;
+  color: #434455;
   text-decoration: none;
 }
 
@@ -103,7 +95,6 @@ body {
   color: #404BBF;
   outline: 2px solid #404BBF;
 }
-
 
 .hero {
   background-color: #2E2F42;
@@ -115,8 +106,8 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.1;
-  letter-spacing: 0.05em;
+  line-height: 1.07;
+  letter-spacing: 2%;
   margin-bottom: 48px;
 }
 
@@ -125,7 +116,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.04em;
+  letter-spacing: 2%;
   text-transform: uppercase;
   padding: 16px 32px;
   background-color: #4D5AE5;
@@ -147,74 +138,37 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
+  letter-spacing: 2%;
   text-align: center;
   margin-bottom: 72px;
   color: #2E2F42;
 }
 
-
-.features__box-name {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.3;
-  letter-spacing: 0.02em;
-  color: #2E2F42;
-  margin-bottom: 8px;
-}
-
-.features__box-text {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-
-.team {
-  background-color: #F4F4FD;
-}
-
-.team__name {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.3;
-  letter-spacing: 0.02em;
-  color: #2E2F42;
-  margin-bottom: 8px;
-}
-
-.team__position {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-
+.features__box-name,
+.team__name,
 .portfolio__name {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.3;
-  letter-spacing: 0.02em;
+  letter-spacing: 2%;
   color: #2E2F42;
   margin-bottom: 8px;
 }
 
+.features__box-text,
+.team__position,
 .portfolio__describe {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  letter-spacing: 2%;
   color: #434455;
+}
+
+.team {
+  background-color: #F4F4FD;
 }
 
 .footer__text {
@@ -222,7 +176,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  letter-spacing: 2%;
   color: #F4F4FD;
   margin-top: 16px;
 }
