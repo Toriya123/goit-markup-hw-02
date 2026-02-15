@@ -50,24 +50,24 @@ body {
   text-decoration: none;
 }
 
-.header .logo span {
+.logo span {
   color: #4D5AE5;
-  /* Web синій */
+
 }
 
-.footer .logo span {
-  color: #FFFFFF;
-  /* Web світлий */
+.footer {
+  background-color: #2E2F42;
 }
+
 
 .header .logo {
   color: #2E2F42;
-  /* Studio темний */
+  
 }
 
 .footer .logo {
   color: #F4F4FD;
-  /* Studio світлий */
+  
 }
 
 
