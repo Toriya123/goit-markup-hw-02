@@ -1,3 +1,4 @@
+/* Reset */
 body, h1, h2, h3, h4, h5, h6, p, ul, li, figure, figcaption, blockquote, address {
   margin: 0;
   padding: 0;
@@ -28,24 +29,25 @@ address {
   font-style: normal;
 }
 
+/* Base */
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #434455;
   background-color: #FFFFFF;
 }
 
+/* Logo */
 .logo {
   font-family: "Raleway", sans-serif;
-  letter-spacing: 3%;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-decoration: none;
 }
 
 .logo span {
@@ -60,18 +62,13 @@ body {
   color: #F4F4FD;
 }
 
-.footer {
-  background-color: #2E2F42;
-}
-
+/* Header Links */
 .menu__link {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #2E2F42;
-  text-decoration: none;
 }
 
 .menu__link:hover,
@@ -81,13 +78,10 @@ body {
 }
 
 .address__link {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #434455;
-  text-decoration: none;
 }
 
 .address__link:hover,
@@ -96,6 +90,7 @@ body {
   outline: 2px solid #404BBF;
 }
 
+/* Hero */
 .hero {
   background-color: #2E2F42;
   color: #FFFFFF;
@@ -103,80 +98,83 @@ body {
 }
 
 .hero__content--title {
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   margin-bottom: 48px;
 }
 
+/* Button */
 .button {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   text-transform: uppercase;
   padding: 16px 32px;
   background-color: #4D5AE5;
   color: #FFFFFF;
   cursor: pointer;
-  border: none;
 }
 
-.button:hover {
-  background-color: #404BBF;
-}
-
+.button:hover,
 .button:focus {
+  background-color: #404BBF;
   outline: 2px solid #404BBF;
 }
 
+/* Section Titles */
 .title {
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.2;
-  letter-spacing: 2%;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
   text-align: center;
   margin-bottom: 72px;
   color: #2E2F42;
 }
 
+/* Features / Team / Portfolio Card Titles */
 .features__box-name,
 .team__name,
 .portfolio__name {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.3;
-  letter-spacing: 2%;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2E2F42;
   margin-bottom: 8px;
 }
 
+/* Text Content */
 .features__box-text,
 .team__position,
 .portfolio__describe {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 
+/* Team Section */
 .team {
   background-color: #F4F4FD;
 }
 
+.team__box {
+  background-color: #FFFFFF;
+}
+
+/* Footer */
+.footer {
+  background-color: #2E2F42;
+}
+
 .footer__text {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #F4F4FD;
   margin-top: 16px;
 }
