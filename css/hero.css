@@ -1,17 +1,13 @@
 .hero {
   background: #2E2F42;
-  padding: 188px 141px;
   text-align: center;
 }
 
 .hero-title {
   font-weight: 700;
-  font-style: Bold;
   font-size: 56px;
-  line-height: 1;
+  line-height: 1.07;
   letter-spacing: 0.02em;
-  max-width: 496px;
-  Width: 100%;
   color: #fff;
   margin: 0 auto;
   padding-bottom: 48px;
@@ -22,8 +18,6 @@
   letter-spacing: 0.04em;
   color: #fff;
   background-color: #4D5AE5;
-  padding: 16px 32px;
-  border-radius: 4px;
 }
 
 .button:hover,
